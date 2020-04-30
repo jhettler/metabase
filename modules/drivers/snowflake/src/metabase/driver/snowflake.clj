@@ -50,7 +50,7 @@
                 :client_session_keep_alive                  true
                 ;; other SESSION parameters
                 ;; use the same week start we use for all the other drivers
-                :week_start                                 7
+                :week_start                                 1
                 ;; not 100% sure why we need to do this but if we don't set the connection to UTC our report timezone
                 ;; stuff doesn't work, even though we ultimately override this when we set the session timezone
                 :timezone                                   "UTC"}
